@@ -8,6 +8,9 @@ No API key. No browser tab. Just ask for a "glass card" or "neon button" and get
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![MCP compatible](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 
+> **Need a custom MCP server for YOUR platform, API, or internal tool?**
+> I build production-ready MCPs in days, not months. → [**Get in touch**](https://github.com/Fabi-SPL) · [Hire on Fiverr](https://www.fiverr.com/fabi_ai_labs)
+
 ---
 
 ## What it does
