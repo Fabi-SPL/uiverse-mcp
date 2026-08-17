@@ -1,11 +1,11 @@
 # uiverse-mcp
 
-**MCP server for [Uiverse.io](https://uiverse.io/) — browse, search, and use 3,800+ open-source UI components directly from Claude Code, Cursor, Codex, or any MCP-compatible AI agent.**
+**MCP server for [Uiverse.io](https://uiverse.io/): browse, search, and use 3,800+ open-source UI components directly from Claude Code, Cursor, Codex, or any MCP-compatible AI agent.**
 
 No API key. No browser tab. Just ask for a "glass card" or "neon button" and get the full HTML + CSS back in your editor.
 
 [![npm version](https://img.shields.io/npm/v/uiverse-mcp)](https://www.npmjs.com/package/uiverse-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 [![MCP compatible](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 
 ---
@@ -23,7 +23,7 @@ Uiverse.io has 3,800+ community-built UI components (buttons, cards, loaders, in
 
 ## Install
 
-### Option A — npx (recommended, no install needed)
+### Option A: npx (recommended, no install needed)
 
 Add to your MCP config:
 
@@ -38,7 +38,7 @@ Add to your MCP config:
 }
 ```
 
-### Option B — global install
+### Option B: global install
 
 ```bash
 npm install -g uiverse-mcp
@@ -56,7 +56,7 @@ Then add to MCP config:
 }
 ```
 
-### Option C — clone and build
+### Option C: clone and build
 
 ```bash
 git clone https://github.com/Fabi-SPL/uiverse-mcp.git
@@ -98,7 +98,7 @@ Add to MCP config:
 
 | Tool | What it does |
 |------|-------------|
-| `list_categories` | All 11 categories with component counts — call this first |
+| `list_categories` | All 11 categories with component counts, call this first |
 | `list_components` | Browse a category, paginated, optional author filter |
 | `search_components` | Fuzzy search by name, tag, or author |
 | `get_component` | Fetch full HTML + CSS of a specific component |
@@ -197,7 +197,7 @@ src/
 
 ## Data source & licensing
 
-Components are sourced from [`uiverse-io/galaxy`](https://github.com/uiverse-io/galaxy) — MIT-licensed community contributions. This MCP server is also MIT-licensed. When shipping a component, attribution to the original designer is appreciated (the `author` field is included in every response).
+Components are sourced from [`uiverse-io/galaxy`](https://github.com/uiverse-io/galaxy), MIT-licensed community contributions. This MCP server is Apache 2.0 licensed. When shipping a component, attribution to the original designer is appreciated (the `author` field is included in every response).
 
 ---
 
@@ -209,4 +209,4 @@ Issues and PRs welcome at [github.com/Fabi-SPL/uiverse-mcp](https://github.com/F
 
 ## License
 
-MIT
+Apache 2.0. See `LICENSE` and `NOTICE`.
